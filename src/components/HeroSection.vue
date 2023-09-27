@@ -11,7 +11,7 @@
         <h2>Welcome!</h2>
         <p>
           We tell authentic stories
-          that explore infinite possibilities.
+          that explore infinite possibilities...
         </p>
       </article>
     </section>
