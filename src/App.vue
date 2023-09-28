@@ -42,6 +42,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: gray;
+  margin: 0;
 }
 
 a {

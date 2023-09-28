@@ -33,6 +33,7 @@
     justify-content: space-around;
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
+    font-size: large;
   }
 
   section {
