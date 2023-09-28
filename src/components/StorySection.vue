@@ -27,10 +27,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-image: url('/burning-bush.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
   .story h2 {
     font-family: 'Fredoka', sans-serif;
-    color: #000;
+    color: #ff5400;
   }
   
   .story h2, .story p {
@@ -38,5 +41,12 @@
   }
   .story p {
     font-family: 'Comic Sans MS', sans-serif;
+    color: #ff9e00;
+  }
+  
+  @media (max-width: 768px) {
+    .story {
+      background-repeat: repeat-y;
+    }
   }
 </style>
