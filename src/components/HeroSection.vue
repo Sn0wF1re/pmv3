@@ -1,10 +1,5 @@
 <template>
   <div class="hero" id="home">
-    <nav>
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#team'>Team</a></li>
-        <li><a href='#socials'>Socials</a></li>
-    </nav>
     <section>
       <img src="/masks.svg" alt="masks"/>
       <article>
@@ -25,15 +20,6 @@
     width: auto;
     height: auto;
     color: #000;
-  }
-  
-  nav {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Fredoka', sans-serif;
-    font-weight: bold;
-    font-size: large;
   }
 
   section {

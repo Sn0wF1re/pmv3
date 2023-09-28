@@ -1,4 +1,5 @@
 <template>
+  <NavSection />
   <HeroSection />
   <WelcomeSection />
   <TeamSection />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import NavSection from './components/NavSection.vue'
 import HeroSection from './components/HeroSection.vue'
 import WelcomeSection from './components/WelcomeSection.vue'
 import TeamSection from './components/TeamSection.vue'
@@ -23,6 +25,7 @@ import FooterSection from './components/FooterSection.vue'
 export default {
   name: 'App',
   components: {
+    NavSection,
     HeroSection,
     WelcomeSection,
     TeamSection,
