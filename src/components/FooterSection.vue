@@ -8,7 +8,7 @@
       <a href="https://discord.gg/BZEqhguD2e" target="_blank"><font-awesome-icon icon="fa-brands fa-discord" /></a>
     </ul>
     <footer>
-      &copy {{ year }}/ Sn0wF1re x Pixel Morans 
+      &copy {{ year }}/ <a href="https:clintonmokaya.netlify.app" target="_blank">Sn0wF1re</a> x Pixel Morans 
     </footer>
   </div>
 </template>
@@ -43,5 +43,11 @@ year.value = new Date().getFullYear();
 
   .footer footer {
     font-weight: bold;
+  }
+
+  .footer footer a {
+    color: #000;
+    display: inline;
+    margin-right: 0;
   }
 </style>
