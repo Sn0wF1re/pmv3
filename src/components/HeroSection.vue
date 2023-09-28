@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-around;
     font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
   }
 
   section {
