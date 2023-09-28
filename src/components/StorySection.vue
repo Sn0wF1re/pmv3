@@ -29,7 +29,7 @@
     align-items: center;
   }
   .story h2 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color: #000;
   }
   
@@ -37,6 +37,6 @@
     max-width: 25rem;
   }
   .story p {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
   }
 </style>

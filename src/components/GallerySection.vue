@@ -59,12 +59,12 @@
   }
 
   article h2 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color: #ff5400;
   }
 
   article p {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     color: #ff9e00;
   }
 

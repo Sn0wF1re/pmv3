@@ -19,14 +19,14 @@
   }
   .text h2 {
     color: #000;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     margin-bottom: 5rem;
     max-width: 30rem;
   }
 
   .text a {
     color: #000;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     border: solid 1px #000;
     padding: 1rem;
   }

@@ -16,12 +16,12 @@
     list-style: none;
   }
   .socials h3 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color: #000;
   }
 
   .socials a {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     color: #000;
     display: block;
     margin-bottom: 0.5rem;

@@ -31,13 +31,13 @@
   
   h2 {
     color: #ff5400;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: bold;
   }
 
   p {
     color: #ff9e00;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
   }
 
   @media (max-width: 768px) {

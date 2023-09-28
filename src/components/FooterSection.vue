@@ -28,7 +28,7 @@ year.value = new Date().getFullYear();
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     padding-bottom: 2rem;
   }
 

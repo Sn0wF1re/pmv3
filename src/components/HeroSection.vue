@@ -31,7 +31,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
   }
 
   section {
@@ -48,11 +48,11 @@
   }
 
   article h2 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Fredoka', sans-serif;
   }
 
   article p {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
   }
 
   a {
