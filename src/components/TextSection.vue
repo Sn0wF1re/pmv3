@@ -26,7 +26,7 @@
 
   .text a {
     color: #000;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     border: solid 1px #000;
     padding: 1rem;
   }
