@@ -1,5 +1,5 @@
 <template>
-  <div class="game" id="koko">
+  <div class="game" id="gaming">
     <article>
       <h1>
         Take a Quest<br> with Koko for the<br> Adventure of a<br> Lifetime!

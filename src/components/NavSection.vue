@@ -1,11 +1,28 @@
 <template>
   <div class="nav">
     <img src="/pmlogo.svg">
-    <nav>
-      <li><a href=''>About</a></li>
-      <li><a href=''>Story</a></li>
-      <li><a href=''>NFTs</a></li>
-      <li><a href=''>Gaming</a></li>
+    <nav class="desktop-nav" v-show="!mobileMenuVisible">
+      <li><a href='#about'>About</a></li>
+      <li><a href='#story'>Story</a></li>
+      <li><a href='#nfts'>NFTs</a></li>
+      <li><a href='#gaming'>Gaming</a></li>
+      <li class="marketplace">
+        <a href=''>Marketplace</a>
+        <p>Coming Soon</p>
+      </li>
+    </nav>
+
+    <div class="mobile-toggle" @click="toggleMobileMenu">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+
+    <nav class="mobile-nav" v-show="mobileMenuVisible">
+      <li><a href='#about'>About</a></li>
+      <li><a href='#story'>Story</a></li>
+      <li><a href='#nfts'>NFTs</a></li>
+      <li><a href='#gaming'>Gaming</a></li>
       <li class="marketplace">
         <a href=''>Marketplace</a>
         <p>Coming Soon</p>
@@ -14,8 +31,21 @@
   </div>
 </template>
 
+<script setup>
+import { ref } from 'vue';
+
+const mobileMenuVisible = ref(false);
+
+const toggleMobileMenu = () => {
+  mobileMenuVisible.value = !mobileMenuVisible.value;
+  // set class
+  const mobileToggle = document.querySelector('.mobile-toggle');
+  mobileToggle.classList.toggle('mobile-toggle-active');
+};
+</script>
+
 <style scoped>
-.nav {
+  .nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -27,23 +57,23 @@
     padding: 2.5rem;
   }
 
-  nav {
+  .desktop-nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 0.5rem;
   }
 
-  nav li a {
+  .desktop-nav li a {
     color: rgba(228, 126, 48, 1);
   }
 
-  nav li .marketplace {
+  .desktop-nav li .marketplace {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  nav .marketplace a {
+  .desktop-nav .marketplace a {
     background-color: rgba(228, 126, 48, 1);
     color: #000;
     border: 3px solid rgba(228, 126, 48, 1);
@@ -51,20 +81,88 @@
     padding: 0.4rem;
   }
 
-  nav .marketplace p {
+  .desktop-nav .marketplace p {
     color: #fff;
     font-size: 0.7rem;
     font-weight: normal;
   }
 
+  img {
+    padding-left: 7rem;
+  }
+  /* Show the mobile menu when the button is clicked */
+  .mobile-nav {
+    display: none;
+  }
+
   @media (max-width: 768px) {
+    .line {
+      width: 30px;
+      height: 3px;
+      background: rgba(228, 126, 48, 1);
+      margin: 6px 0;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    
+    /* Mobile Navigation Menu Styles */
+    .mobile-toggle-active .line:nth-child(1) {
+      transform: rotate(-45deg) translate(-9px, 12px);
+    }
+    
+    .mobile-toggle-active .line:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .mobile-toggle-active .line:nth-child(3) {
+      transform: rotate(45deg) translate(-9px, -12px);
+    }
+  
+    .mobile-nav {
+      display: flex;
+      background: #000;
+      padding: 1rem;
+      flex-direction: column;
+    }
     .nav {
-        flex-direction: column;
-        padding-top: 1rem;
+      flex-direction: column;
     }
 
-    nav {
-        column-gap: 1rem;
+    .mobile-nav li a {
+      color: rgba(228, 126, 48, 1);
+      font-size: 0.8rem;
+    }
+
+    .mobile-nav li .marketplace {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mobile-nav .marketplace a {
+      background-color: rgba(228, 126, 48, 1);
+      color: #000;
+      border: 3px solid rgba(228, 126, 48, 1);
+      border-radius: 0.5rem;
+      padding: 0.15rem;
+      font-size: 0.8rem;
+    }
+  
+    .mobile-nav .marketplace p {
+      color: #fff;
+      font-size: 0.4rem;
+      font-weight: normal;
+    }
+    .mobile-toggle {
+      display: flex;
+      flex-direction: column;
+      background-color: #000;
+    }
+
+    img {
+      padding-left: 0;
+    }
+    .desktop-nav {
+      display: none;
     }
   }
 </style>

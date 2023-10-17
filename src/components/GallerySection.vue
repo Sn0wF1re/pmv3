@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <div class="gallery" id="nfts">
     <section class="collage">
       <img src="/collage/Group15.png">
       <img src="/collage/Bg9.png">

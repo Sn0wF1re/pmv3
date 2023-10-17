@@ -1,5 +1,5 @@
 <template>
-  <div class="hero" id="home">
+  <div class="hero" id="about">
     <section>
       <img src="/masks.svg" alt="masks"/>
       <article>
