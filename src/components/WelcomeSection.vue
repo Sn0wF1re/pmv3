@@ -1,16 +1,15 @@
 <template>
     <div class="welcome">
-      <img src="/pmlogo.svg" alt="PM logo">
-      <article>
-        <h2>
-            Unravel your true creative potential
-        </h2>
-        <p>
-            We are a studio that leverages
-            blockchain technology to empower you
-            to harness your true creative potential.
-        </p>
-      </article>
+      <h2>
+        Wakawaka is on the brink<br> of destruction
+      </h2>
+      <p>
+        Dive into the heart of our universe by taking a read
+        of the captivating Moran's Origin Story.
+        Discover how this narrative inspires our community
+        to come together and create a rich and open universe.
+      </p>
+      <a href="https://t.me/pixelmorans" target="_blank">Read More</a>
     </div>
 </template>
 
@@ -20,17 +19,21 @@
     height: auto;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: #000;
   }
-
-  article {
-    max-width: 17rem;
-  }
   
+  h2, p {
+    max-width: 30rem;
+    background: linear-gradient(180deg, #E8A12C 0.13%, #A004FF 171.84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   h2 {
-    color: #ff5400;
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
   }
@@ -38,6 +41,16 @@
   p {
     color: #ff9e00;
     font-family: 'Comic Sans MS', sans-serif;
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: rgba(228, 126, 48, 1);
+    font-family: 'Fredoka', sans-serif;
+    text-transform: uppercase;
+    border: solid 3px rgba(228, 126, 48, 1);
+    border-radius: 0.5rem;
+    padding: 1rem;
   }
 
   @media (max-width: 768px) {

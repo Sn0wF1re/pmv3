@@ -8,7 +8,7 @@
       <a href="https://discord.gg/BZEqhguD2e" target="_blank"><font-awesome-icon icon="fa-brands fa-discord" /></a>
     </ul>
     <footer>
-      &copy {{ year }}/ <a href="https:clintonmokaya.netlify.app" target="_blank">Sn0wF1re</a> x Pixel Morans 
+      &copy {{ year }}/ Pixel Morans Studios. All rights reserved.
     </footer>
   </div>
 </template>
@@ -22,13 +22,13 @@ year.value = new Date().getFullYear();
 
 <style scoped>
   .footer {
-    background-color: #ff7900;
-    color: black;
+    background-color: #000;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     padding-bottom: 2rem;
   }
 

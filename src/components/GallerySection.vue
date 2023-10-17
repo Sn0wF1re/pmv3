@@ -20,7 +20,7 @@
     </section>
     <article>
       <h2>
-        Masks Of Urim are more than regular NFTs
+        Masks Of Urim<br> are more than<br> regular NFTs
       </h2>
       <p>
         Tales were told that certain lands
@@ -31,6 +31,7 @@
         that it would grant them power
         to rule over all Wakawaka.
       </p>
+      <a href="">Buy a mask</a>
     </article>
   </div>
 </template>
@@ -44,12 +45,12 @@
 
   .gallery p {
     min-width: 1fr;
-    color: #ff9e00;
   }
 
   .gallery .collage {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
   }
 
   .gallery article {
@@ -58,14 +59,29 @@
     max-width: 20rem;
   }
 
+  article h2, article p {
+    background: linear-gradient(180deg, #E8A12C 0.13%, #A004FF 171.84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   article h2 {
     font-family: 'Fredoka', sans-serif;
-    color: #ff5400;
   }
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff9e00;
+  }
+
+  article a {
+    color: rgba(228, 126, 48, 1);
+    border: solid 3px rgba(228, 126, 48, 1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
   }
 
   @media (max-width: 768px) {

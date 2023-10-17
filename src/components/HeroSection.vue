@@ -3,10 +3,11 @@
     <section>
       <img src="/masks.svg" alt="masks"/>
       <article>
-        <h2>Welcome!</h2>
+        <h2>Unravel your creative potential</h2>
         <p>
-          We tell authentic stories
-          that explore infinite possibilities...
+          We are a studio leveraging web 3.0 technology
+          to empower creatives in africa to harness
+          their creative potential
         </p>
       </article>
     </section>
@@ -15,7 +16,7 @@
 
 <style scoped>
   .hero {
-    background-color: #ff7900;
+    background-color: rgba(228, 126, 48, 1);
     min-height: 30rem;
     width: auto;
     height: auto;
@@ -27,7 +28,7 @@
   }
 
   article {
-    max-width: 20rem;
+    max-width: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +38,9 @@
 
   article h2 {
     font-family: 'Fredoka', sans-serif;
+    font-weight: 400px;
+    font-size: 64px;
+    line-height: 64px;
   }
 
   article p {

@@ -2,9 +2,14 @@
   <div class="nav">
     <img src="/pmlogo.svg">
     <nav>
-      <li><a href='#home'>Home</a></li>
-      <li><a href='#team'>Team</a></li>
-      <li><a href='#socials'>Socials</a></li>
+      <li><a href=''>About</a></li>
+      <li><a href=''>Story</a></li>
+      <li><a href=''>NFTs</a></li>
+      <li><a href=''>Gaming</a></li>
+      <li class="marketplace">
+        <a href=''>Marketplace</a>
+        <p>Coming Soon</p>
+      </li>
     </nav>
   </div>
 </template>
@@ -13,7 +18,7 @@
 .nav {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
@@ -24,12 +29,32 @@
 
   nav {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10rem;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 0.5rem;
   }
 
   nav li a {
-    color: #ff5400;
+    color: rgba(228, 126, 48, 1);
+  }
+
+  nav li .marketplace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav .marketplace a {
+    background-color: rgba(228, 126, 48, 1);
+    color: #000;
+    border: 3px solid rgba(228, 126, 48, 1);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+
+  nav .marketplace p {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: normal;
   }
 
   @media (max-width: 768px) {

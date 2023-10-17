@@ -33,7 +33,7 @@
   }
   .story h2 {
     font-family: 'Fredoka', sans-serif;
-    color: #ff5400;
+    color: rgba(228, 126, 48, 1);
   }
   
   .story h2, .story p {

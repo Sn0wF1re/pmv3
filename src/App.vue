@@ -1,11 +1,11 @@
 <template>
   <NavSection />
   <HeroSection />
-  <WelcomeSection />
-  <TeamSection />
   <TextSection />
-  <StorySection />
+  <WelcomeSection />
   <GallerySection />
+  <GameSection />
+  <!-- <StorySection /> -->
   <SocialsSection />
   <FooterSection />
 </template>
@@ -13,10 +13,10 @@
 <script>
 import NavSection from './components/NavSection.vue'
 import HeroSection from './components/HeroSection.vue'
-import WelcomeSection from './components/WelcomeSection.vue'
-import TeamSection from './components/TeamSection.vue'
 import TextSection from './components/TextSection.vue'
-import StorySection from './components/StorySection.vue'
+import WelcomeSection from './components/WelcomeSection.vue'
+import GameSection from './components/GameSection.vue'
+// import StorySection from './components/StorySection.vue'
 import GallerySection from './components/GallerySection.vue'
 import SocialsSection from './components/SocialsSection.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -28,9 +28,9 @@ export default {
     NavSection,
     HeroSection,
     WelcomeSection,
-    TeamSection,
+    GameSection,
     TextSection,
-    StorySection,
+    // StorySection,
     GallerySection,
     SocialsSection,
     FooterSection
@@ -53,14 +53,14 @@ a {
 }
 
 .socials, .welcome, .text, .footer
-.team, .story, .hero, .gallery {
+.game, .story, .hero, .gallery {
   padding: 100px;
 }
 
 @media (max-width: 768px) {
   .socials, .welcome, .text,
   .footer, .story, .hero,
-  .team, .gallery {
+  .game, .gallery {
     padding: 50px;
   }
 }
