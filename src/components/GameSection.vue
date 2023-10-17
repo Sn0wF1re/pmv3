@@ -34,6 +34,10 @@
     font-family: 'Fredoka', sans-serif;
   }
 
+  .game article h1 {
+    font-size: 2.5rem;
+  }
+
   .game article p {
     font-family: 'Comic Sans MS', sans-serif;
     margin-bottom: 0.5rem;
@@ -71,5 +75,22 @@
     margin-bottom: 0;
     color: #fff;
     font-size: 0.7rem;
+  }
+
+  @media (max-width: 768px) {
+    .game {
+      flex-direction: column;
+      padding: 3rem;
+    }
+
+    .game article {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .game img {
+      width: 100%;
+      height: 100%;
+    }
   }
 </style>

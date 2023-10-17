@@ -53,6 +53,11 @@
     gap: 0.5rem;
   }
 
+  .gallery .collage img {
+    width: 100px;
+    height: 100px;
+  }
+
   .gallery article {
     display: flex;
     flex-direction: column;
@@ -68,11 +73,15 @@
 
   article h2 {
     font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff9e00;
+    padding-top: 0;
   }
 
   article a {
@@ -81,7 +90,6 @@
     border-radius: 0.5rem;
     padding: 1rem;
     text-transform: uppercase;
-    margin-top: 2rem;
   }
 
   @media (max-width: 768px) {
@@ -94,6 +102,11 @@
     .gallery .collage {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .gallery .collage img {
+      width: 90px;
+      height: 90px;
     }
     .hidden {
       display: none;

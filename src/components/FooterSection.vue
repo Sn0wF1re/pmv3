@@ -29,7 +29,8 @@ year.value = new Date().getFullYear();
     justify-content: center;
     align-items: center;
     font-family: 'Fredoka', sans-serif;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
+    padding-top: 0;
   }
 
   .footer ul {

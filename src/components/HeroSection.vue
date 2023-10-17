@@ -3,10 +3,10 @@
     <section>
       <img src="/masks.svg" alt="masks"/>
       <article>
-        <h2>Unravel your creative potential</h2>
+        <h1>Unravel your<br> creative potential</h1>
         <p>
           We are a studio leveraging web 3.0 technology
-          to empower creatives in africa to harness
+          to empower creatives in Africa to harness
           their creative potential
         </p>
       </article>
@@ -25,30 +25,35 @@
 
   section {
     display: flex;
+    max-width: 100%;
   }
 
   article {
-    max-width: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10rem;
-    font-size: larger;
   }
 
-  article h2 {
+  article h1 {
     font-family: 'Fredoka', sans-serif;
     font-weight: 400px;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
+    margin-top: 0;
   }
 
   a {
     color: #000;
+  }
+
+  img {
+    width: 37rem;
+    height: 35rem;
   }
 
   @media (max-width: 768px) {
@@ -57,11 +62,18 @@
     }
     .hero section {
       flex-direction: column;
+      align-items: center;
     }
     article {
-      align-items: center;
-      justify-content: center;
-      margin-right: 20rem;
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+
+    img {
+      width: 75%;
+      height: 75%;
+      margin-bottom: 2rem;
     }
   }
 </style>

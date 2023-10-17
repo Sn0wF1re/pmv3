@@ -22,6 +22,10 @@
     align-items: center;
     background-color: #000;
   }
+
+  .text h2 {
+    font-size: 2.5rem;
+  }
   .text h2, .text p {
     background: linear-gradient(180deg, #E8A12C 0.13%, #A004FF 171.84%);
     background-clip: text;

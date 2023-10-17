@@ -1,6 +1,6 @@
 <template>
-  <div class="nav">
-    <img src="/pmlogo.svg">
+  <div class="nav" id="nav">
+    <a href="#nav"><img src="/pmlogo.svg"></a>
     <nav class="desktop-nav" v-show="!mobileMenuVisible">
       <li><a href='#about'>About</a></li>
       <li><a href='#story'>Story</a></li>

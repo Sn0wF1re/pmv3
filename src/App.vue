@@ -2,10 +2,10 @@
   <NavSection />
   <HeroSection />
   <TextSection />
+  <StorySection />
   <WelcomeSection />
   <GallerySection />
   <GameSection />
-  <!-- <StorySection /> -->
   <SocialsSection />
   <FooterSection />
 </template>
@@ -16,7 +16,7 @@ import HeroSection from './components/HeroSection.vue'
 import TextSection from './components/TextSection.vue'
 import WelcomeSection from './components/WelcomeSection.vue'
 import GameSection from './components/GameSection.vue'
-// import StorySection from './components/StorySection.vue'
+import StorySection from './components/StorySection.vue'
 import GallerySection from './components/GallerySection.vue'
 import SocialsSection from './components/SocialsSection.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -30,7 +30,7 @@ export default {
     WelcomeSection,
     GameSection,
     TextSection,
-    // StorySection,
+    StorySection,
     GallerySection,
     SocialsSection,
     FooterSection

@@ -30,6 +30,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 0;
   }
 
   .socials article {
@@ -37,6 +38,11 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .socials img {
+    width: 60px;
+    height: 60px;
   }
   .socials h3 {
     font-family: 'Fredoka', sans-serif;
@@ -61,21 +67,18 @@ export default {
     width: 3px;
   }
 
-  img {
-    width: max-content;
-    height: max-content;
-  }
-
   @media (max-width: 768px) {
     .socials {
       flex-direction: column;
+      padding-bottom: 0;
     }
 
     .socials ul {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       margin-top: 2rem;
-      column-gap: 1.5rem;
+      column-gap: 2.5rem;
       margin-right: 5rem;
+      font-size: 1.5rem;
     }
 
     /* .socials article {
@@ -85,13 +88,13 @@ export default {
       font-size: 2rem;
       margin-right: 1rem;
     }
-    .socials .middle {
+    /* .socials .middle {
       margin-left: 3.5rem;
-    }
+    } */
 
     img {
-      width: 50%;
-      height: 50%;
+      width: 20%;
+      height: 20%;
     }
   }
 </style>
