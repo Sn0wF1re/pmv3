@@ -1,9 +1,9 @@
 <template>
   <div class="hero" id="about">
     <section>
-      <img src="/masks.svg" alt="masks"/>
+      <img src="/masks.svg" alt="masks" class="masks"/>
       <article>
-        <h1>Unravel your<br> creative potential</h1>
+        <h1>Unravel your creative potential</h1>
         <p>
           We are a studio leveraging web 3.0 technology
           to empower creatives in Africa to harness
@@ -11,6 +11,7 @@
         </p>
       </article>
     </section>
+    <img src="/vector.png" alt="stars" class="stars">
   </div>
 </template>
 
@@ -37,9 +38,9 @@
 
   article h1 {
     font-family: 'Fredoka', sans-serif;
-    font-weight: 400px;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    line-height: 100%;
   }
 
   article p {
@@ -51,9 +52,15 @@
     color: #000;
   }
 
-  img {
+  .masks {
     width: 37rem;
     height: 35rem;
+  }
+
+  .stars {
+    position: absolute;
+    top: 27rem;
+    right: 4.5rem;
   }
 
   @media (max-width: 768px) {
@@ -70,10 +77,13 @@
       text-align: center;
     }
 
-    img {
+    .masks {
       width: 75%;
       height: 75%;
       margin-bottom: 2rem;
+    }
+    .stars {
+      display: none;
     }
   }
 </style>
