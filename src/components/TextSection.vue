@@ -7,8 +7,8 @@
       Our dynamic web3 platform is a haven for artists, writers,
       gamers, engineers and designers alike.
       Immerse yourself in a universe of NFTs, games, Tokens,
-      and a rich lore fuel your creativity powered by our open IP,
-      the 'Moran's Origin Story. Let your masterpiece begin here!
+      and a rich lore fuel your creativity powered by our open IP;
+      the 'Morans Origins' Story. Let your masterpiece begin here!
     </p>
     <a href="https://t.me/pixelmorans" target="_blank">Join community</a>
   </div>
