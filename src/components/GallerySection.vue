@@ -1,9 +1,9 @@
 <template>
   <div class="gallery" id="nfts">
     <section class="collage">
-      <img src="/collage/Group15.png" class="abnormal">
+      <img src="/collage/Group15.png">
       <img src="/collage/Bg9.png">
-      <img src="/collage/Group20.png" class="abnormal">
+      <img src="/collage/Group20.png">
       <img src="/collage/Bg8.png">
       <img src="/collage/Bg7.png">
       <img src="/collage/Bg6.png">
@@ -31,7 +31,7 @@
         that it would grant them power
         to rule over all Wakawaka.
       </p>
-      <a href="">Buy a mask</a>
+      <a href="https://magiceden.io/marketplace/pixel_moran_legendary_masks" target="_blank">Buy a mask</a>
     </article>
   </div>
 </template>
@@ -56,11 +56,6 @@
   .gallery .collage img {
     width: 100px;
     height: 100px;
-  }
-
-  .gallery .collage img.abnormal {
-    width: 101px;
-    height: 101px;
   }
 
   .gallery article {

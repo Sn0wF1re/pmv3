@@ -9,7 +9,7 @@
         Discover how this narrative inspires our community
         to come together and create a rich and open universe.
       </p>
-      <a href="https://t.me/pixelmorans" target="_blank">Read More</a>
+      <a href="#" target="_blank">Read More</a>
     </div>
 </template>
 
@@ -52,6 +52,7 @@
     border: solid 3px rgba(228, 126, 48, 1);
     border-radius: 0.5rem;
     padding: 1rem;
+    pointer-events: none;
   }
 
   @media (max-width: 768px) {

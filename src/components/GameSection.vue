@@ -13,7 +13,7 @@
         of silverback gorillas.
       </p>
       <article class="btn">
-        <a href="">Play Koko</a>
+        <a href="#">Play Koko</a>
         <p>Coming soon</p>
       </article>
     </article>
@@ -68,6 +68,7 @@
     color: #000;
     font-size: 1.7rem;
     font-weight: 400;
+    pointer-events: none;
   }
 
   .game article .btn p {

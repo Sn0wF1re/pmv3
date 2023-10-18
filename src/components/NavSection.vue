@@ -129,7 +129,7 @@ const toggleMobileMenu = () => {
 
     .mobile-nav li a {
       color: rgba(228, 126, 48, 1);
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 
     .mobile-nav li .marketplace {
@@ -143,19 +143,20 @@ const toggleMobileMenu = () => {
       color: #000;
       border: 3px solid rgba(228, 126, 48, 1);
       border-radius: 0.5rem;
-      padding: 0.15rem;
-      font-size: 0.8rem;
+      padding: 0.1rem;
+      font-size: 0.9rem;
     }
   
     .mobile-nav .marketplace p {
       color: #fff;
-      font-size: 0.4rem;
+      font-size: 0.5rem;
       font-weight: normal;
     }
     .mobile-toggle {
       display: flex;
       flex-direction: column;
       background-color: #000;
+      cursor: pointer;
     }
 
     img {
