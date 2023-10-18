@@ -41,8 +41,8 @@ export default {
   }
 
   .socials img {
-    width: 60px;
-    height: 60px;
+    width: 210px;
+    height: 162px;
   }
   .socials h3 {
     font-family: 'Fredoka', sans-serif;

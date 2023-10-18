@@ -1,7 +1,52 @@
-# Vue 3 + Vite
+# Pixel Morans v2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project contains source code for v2 of the Pixel Morans website
 
-## Recommended IDE Setup
+## Table of Contents
+1. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+2. [Usage](#usage)
+3. [Folder Structure](#folder-structure)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Getting Started
+
+To get started and run locally, follow the instructions below:
+
+### Prerequisites
+
+- Node.js: [Link to download](https://nodejs.org/)
+- Vue CLI: [Link to documentation](https://cli.vuejs.org/)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sn0wF1re/pmv3.git
+
+2. Navigate to the directory:
+   ```sh
+   cd pmv3
+
+3. ```sh
+   npm install
+
+4. ```sh
+   npm run dev
+
+### Technologies Used
+
+  - Vue
+  - HTML
+  - CSS
+
+### Contribution
+
+Hit me up to talk contributions.
+
+### Licences
+
+Soon to be added
