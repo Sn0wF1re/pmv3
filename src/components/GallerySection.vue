@@ -1,9 +1,9 @@
 <template>
   <div class="gallery" id="nfts">
     <section class="collage">
-      <img src="/collage/Group15.png">
+      <img src="/collage/Group15.png" class="abnormal">
       <img src="/collage/Bg9.png">
-      <img src="/collage/Group20.png">
+      <img src="/collage/Group20.png" class="abnormal">
       <img src="/collage/Bg8.png">
       <img src="/collage/Bg7.png">
       <img src="/collage/Bg6.png">
@@ -56,6 +56,11 @@
   .gallery .collage img {
     width: 100px;
     height: 100px;
+  }
+
+  .gallery .collage img.abnormal {
+    width: 101px;
+    height: 101px;
   }
 
   .gallery article {
