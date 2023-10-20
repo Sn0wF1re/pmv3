@@ -27,16 +27,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 6.25rem 16.25rem; */
   }
 
   .game article h2, .btn a, .game article .btn p {
     font-family: 'Fredoka', sans-serif;
   }
-
-  /* .game article h2 {
-    font-size: 2.5rem;
-  } */
 
   .game article p {
     font-family: 'Comic Sans MS', sans-serif;
@@ -46,14 +41,16 @@
     max-width: 20rem;
     padding-bottom: 0;
     color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .game article .btn {
     border: solid 3px #000;
     border-radius: 0.5rem;
     padding: 1rem;
-    /* width: 18.4rem;
-    height: 5.1rem; */
+    width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,8 +64,7 @@
 
   .btn a {
     color: #000;
-    /* font-size: 1.7rem;
-    font-weight: 400; */
+    text-transform: uppercase;
     pointer-events: none;
   }
 
@@ -82,9 +78,11 @@
   @media (max-width: 850px) {
     .game {
       flex-direction: column;
-      padding: 3rem;
     }
 
+    .game article .btn {
+      width: 15rem;
+    }
     .game article {
       margin-top: 2rem;
       text-align: center;

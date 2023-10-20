@@ -43,5 +43,12 @@
     border: solid 3px rgba(228, 126, 48, 1);
     border-radius: 0.5rem;
     padding: 1rem;
+    width: 20rem;
+  }
+
+  @media (max-width: 850px) {
+    .text a {
+      width: 15rem;
+    }
   }
 </style>

@@ -64,6 +64,7 @@
     display: flex;
     flex-direction: column;
     max-width: 20rem;
+    align-items: center;
   }
 
   article h2, article p {
@@ -89,6 +90,7 @@
     border: solid 3px rgba(228, 126, 48, 1);
     border-radius: 0.5rem;
     padding: 1rem;
+    width: 20rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
     font-family: 'Fredoka', sans-serif;
@@ -103,6 +105,9 @@
       padding-left: 0;
     }
 
+    article a {
+      width: 15rem;
+    }
     .gallery .collage {
       display: grid;
       grid-template-columns: repeat(3, 1fr);

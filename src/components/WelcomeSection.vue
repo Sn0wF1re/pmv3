@@ -33,12 +33,6 @@
     -webkit-text-fill-color: transparent;
   }
 
-  /* h2 {
-    font-family: 'Fredoka', sans-serif;
-    font-weight: bold;
-    font-size: 2.5rem;
-  } */
-
   p {
     color: #ff9e00;
     font-family: 'Comic Sans MS', sans-serif;
@@ -53,11 +47,16 @@
     border-radius: 0.5rem;
     padding: 1rem;
     pointer-events: none;
+    width: 20rem;
   }
 
   @media (max-width: 850px) {
     .welcome {
       flex-direction: column;
+    }
+
+    a {
+      width: 15rem;
     }
   }
 </style>
