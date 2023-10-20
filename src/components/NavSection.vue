@@ -98,7 +98,7 @@ const toggleMobileMenu = () => {
 
   @media (min-width: 900px) {
     .nav {
-      height: 2rem;
+      height: 3rem;
     }
   }
 
