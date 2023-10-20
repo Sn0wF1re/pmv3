@@ -41,8 +41,8 @@ export default {
   }
 
   .socials img {
-    width: 210px;
-    height: 162px;
+    width: 169px;
+    height: 130px;
   }
   .socials h3 {
     font-family: 'Fredoka', sans-serif;
@@ -67,7 +67,7 @@ export default {
     width: 3px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .socials {
       flex-direction: column;
       padding-bottom: 0;
@@ -93,8 +93,8 @@ export default {
     } */
 
     img {
-      width: 20%;
-      height: 20%;
+      width: 10%;
+      height: 10%;
     }
   }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div class="game" id="gaming">
     <article>
-      <h1>
-        Take a Quest<br> with Koko for the<br> Adventure of a<br> Lifetime!
-      </h1>
+      <h2>
+        Take a Quest with Koko for the Adventure of a Lifetime!
+      </h2>
       <p>
         In the heart of Sizwe, one of the most prosperous nations
         in the magical land of Wakawaka, lies an immense
@@ -30,13 +30,13 @@
     padding: 100px;
   }
 
-  .game article h1, .btn a, .game article .btn p {
+  .game article h2, .btn a, .game article .btn p {
     font-family: 'Fredoka', sans-serif;
   }
 
-  .game article h1 {
+  /* .game article h2 {
     font-size: 2.5rem;
-  }
+  } */
 
   .game article p {
     font-family: 'Comic Sans MS', sans-serif;
@@ -78,7 +78,7 @@
     font-size: 0.7rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .game {
       flex-direction: column;
       padding: 3rem;

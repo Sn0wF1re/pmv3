@@ -20,7 +20,7 @@
     </section>
     <article>
       <h2>
-        Masks Of Urim<br> are more than<br> regular NFTs
+        Masks Of Urim are more than regular NFTs
       </h2>
       <p>
         Tales were told that certain lands
@@ -71,17 +71,18 @@
     -webkit-text-fill-color: transparent;
   }
 
-  article h2 {
+  /* article h2 {
     font-family: 'Fredoka', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     margin-top: 0;
-  }
+  } */
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
     color: #ff9e00;
     padding-top: 0;
+    font-size: 1rem;
   }
 
   article a {
@@ -90,9 +91,12 @@
     border-radius: 0.5rem;
     padding: 1rem;
     text-transform: uppercase;
+    margin-bottom: 4rem;
+    font-size: 1.75rem;
+    font-family: 'Fredoka', sans-serif;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .gallery {
       flex-direction: column;
       justify-content: center;

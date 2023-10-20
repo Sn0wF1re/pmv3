@@ -1,7 +1,7 @@
 <template>
     <div class="welcome">
       <h2>
-        Wakawaka is on the brink<br> of destruction
+        Wakawaka is on the brink of destruction
       </h2>
       <p>
         Dive into the heart of our universe by taking a read
@@ -33,11 +33,11 @@
     -webkit-text-fill-color: transparent;
   }
 
-  h2 {
+  /* h2 {
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
-  }
+  } */
 
   p {
     color: #ff9e00;
@@ -55,7 +55,7 @@
     pointer-events: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .welcome {
       flex-direction: column;
     }

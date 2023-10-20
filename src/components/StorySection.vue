@@ -17,16 +17,16 @@
 
   h2 {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem;
     font-family: 'Fredoka', sans-serif;
-    font-weight: 400px;
+    font-weight: 400px; */
     background: linear-gradient(180deg, #000 0%, #A004FF 211.31%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .story {
       height: 25rem;
     }

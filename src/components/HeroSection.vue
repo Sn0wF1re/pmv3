@@ -3,7 +3,7 @@
     <section>
       <img src="/masks.svg" alt="masks" class="masks"/>
       <article>
-        <h1>Unravel your creative potential</h1>
+        <h2>Unravel your creative potential</h2>
         <p>
           We are a studio leveraging web 3.0 technology
           to empower creatives in Africa to harness
@@ -25,27 +25,27 @@
   }
 
   section {
-    display: flex;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
   }
 
   article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10rem;
+    max-width: 25rem;
   }
 
-  article h1 {
+  /* article h2 {
     font-family: 'Fredoka', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 100%;
-  }
+  } */
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
-    margin-top: 0;
   }
 
   a {
@@ -59,15 +59,16 @@
 
   .stars {
     position: absolute;
-    top: 27rem;
-    right: 4.5rem;
+    top: 18.5rem;
+    right: 13rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .hero {
       min-height: 25rem;
     }
     .hero section {
+      display: flex;
       flex-direction: column;
       align-items: center;
     }

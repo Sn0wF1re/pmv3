@@ -46,6 +46,24 @@ export default {
   text-align: center;
   color: gray;
   margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 100%;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 a {

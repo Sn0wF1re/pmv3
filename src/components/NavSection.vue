@@ -55,6 +55,7 @@ const toggleMobileMenu = () => {
     font-size: large;
     background-color: #000;
     padding: 2.5rem;
+    padding-bottom: 1rem;
   }
 
   .desktop-nav {
@@ -95,7 +96,13 @@ const toggleMobileMenu = () => {
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 900px) {
+    .nav {
+      height: 2rem;
+    }
+  }
+
+  @media (max-width: 850px) {
     .line {
       width: 30px;
       height: 3px;
