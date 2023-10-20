@@ -70,9 +70,9 @@ a {
   text-decoration: none;
 }
 
-.socials, .welcome, .text, .footer
-.game, .story, .hero, .gallery {
-  padding: 100px;
+.socials, .welcome, .text, .footer,
+.game, .story, .gallery {
+  padding: 6.25rem 16.25rem;
 }
 
 @media (max-width: 768px) {

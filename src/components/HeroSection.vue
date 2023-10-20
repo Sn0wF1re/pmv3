@@ -22,6 +22,7 @@
     width: auto;
     height: auto;
     color: #000;
+    padding: 100px;
   }
 
   section {

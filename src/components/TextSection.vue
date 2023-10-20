@@ -38,6 +38,7 @@
 
   .text a {
     color: rgba(228, 126, 48, 1);
+    text-transform: uppercase;
     font-family: 'Fredoka', sans-serif;
     border: solid 3px rgba(228, 126, 48, 1);
     border-radius: 0.5rem;

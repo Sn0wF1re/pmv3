@@ -41,6 +41,8 @@
     display: flex;
     justify-content: space-around;
     background-color: #000;
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 
   .gallery p {
@@ -71,12 +73,9 @@
     -webkit-text-fill-color: transparent;
   }
 
-  /* article h2 {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
-  } */
+  article h2 {
+    padding-bottom: 0.3rem;
+  }
 
   article p {
     font-family: 'Comic Sans MS', sans-serif;
@@ -92,7 +91,6 @@
     padding: 1rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
-    font-size: 1.75rem;
     font-family: 'Fredoka', sans-serif;
   }
 
@@ -101,6 +99,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding-right: 0;
+      padding-left: 0;
     }
 
     .gallery .collage {

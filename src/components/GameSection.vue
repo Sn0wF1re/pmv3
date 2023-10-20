@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
+    /* padding: 6.25rem 16.25rem; */
   }
 
   .game article h2, .btn a, .game article .btn p {
@@ -51,8 +51,9 @@
   .game article .btn {
     border: solid 3px #000;
     border-radius: 0.5rem;
-    width: 18.4rem;
-    height: 5.1rem;
+    padding: 1rem;
+    /* width: 18.4rem;
+    height: 5.1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,8 +67,8 @@
 
   .btn a {
     color: #000;
-    font-size: 1.7rem;
-    font-weight: 400;
+    /* font-size: 1.7rem;
+    font-weight: 400; */
     pointer-events: none;
   }
 
@@ -75,7 +76,7 @@
     margin-top: 0;
     margin-bottom: 0;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
   @media (max-width: 850px) {
