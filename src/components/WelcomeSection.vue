@@ -9,7 +9,7 @@
         Discover how this narrative inspires our community
         to come together and create a rich and open universe.
       </p>
-      <a href="#" target="_blank">Read More</a>
+      <a href="https://pixelmorans.notion.site/Morans-Origins-53a3cbadef024160836ac44672fdc8ac" target="_blank">Read More</a>
     </div>
 </template>
 
@@ -46,7 +46,6 @@
     border: solid 3px rgba(228, 126, 48, 1);
     border-radius: 0.5rem;
     padding: 1rem;
-    pointer-events: none;
     width: 20rem;
   }
 
