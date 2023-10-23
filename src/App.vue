@@ -2,8 +2,8 @@
   <NavSection />
   <HeroSection />
   <TextSection />
+  <UniverseSection />
   <StorySection />
-  <WelcomeSection />
   <GallerySection />
   <GameSection />
   <SocialsSection />
@@ -14,9 +14,9 @@
 import NavSection from './components/NavSection.vue'
 import HeroSection from './components/HeroSection.vue'
 import TextSection from './components/TextSection.vue'
-import WelcomeSection from './components/WelcomeSection.vue'
-import GameSection from './components/GameSection.vue'
 import StorySection from './components/StorySection.vue'
+import GameSection from './components/GameSection.vue'
+import UniverseSection from './components/UniverseSection.vue'
 import GallerySection from './components/GallerySection.vue'
 import SocialsSection from './components/SocialsSection.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -27,10 +27,10 @@ export default {
   components: {
     NavSection,
     HeroSection,
-    WelcomeSection,
+    StorySection,
     GameSection,
     TextSection,
-    StorySection,
+    UniverseSection,
     GallerySection,
     SocialsSection,
     FooterSection
@@ -70,14 +70,14 @@ a {
   text-decoration: none;
 }
 
-.socials, .welcome, .text, .footer,
-.game, .story, .gallery {
+.socials, .story, .text, .footer,
+.game, .universe, .gallery {
   padding: 6.25rem 16.25rem;
 }
 
 @media (max-width: 768px) {
-  .socials, .welcome, .text,
-  .footer, .story, .hero,
+  .socials, .story, .text,
+  .footer, .universe, .hero,
   .game, .gallery {
     padding: 50px;
   }
