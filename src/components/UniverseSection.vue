@@ -6,6 +6,7 @@
 <style scoped>
   .universe {
     background-image: url('/universe.png');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 43.75rem;
     padding: 0;
